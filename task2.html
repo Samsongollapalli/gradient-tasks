@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .maindiv{
+        background-image: linear-gradient(Red,yellow,blue,white); 
+        height: 200px;
+    }
+    .main2{
+        background-image: radial-gradient(blue,red,green);
+        height: 200px;
+        width:450px;
+        animation-name: color2;
+    }
+    @keyframes color2{
+        0% {
+            background-image:radial-gradient(red 10%,blue,green) ;
+            
+        }
+        25%{
+            background-image: blue;
+
+        }
+    }
+    .main3{
+        background-image: conic-gradient(red 0deg,red 90deg ,blue,green,pink,yellow);
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <div class="maindiv">
+        <p> Hello </p>
+    </div>
+    <div class="main2">
+        <h1> Hello World </h1>
+    </div>
+    <div class="main3">
+        <p>  </p>
+    </div>
+</body>
+</html>
